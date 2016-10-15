@@ -235,14 +235,3 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
 
     }
 
-
-    @Override
-    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-        if (isChecked) {
-            nTopping += 1;
-        } else {
-            nTopping -= 1;
-        }
-
-    }
-}
